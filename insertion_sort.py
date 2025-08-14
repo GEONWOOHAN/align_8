@@ -12,4 +12,4 @@ def insertion_sort(arr):
 def data(f):
     data = list(map(int, f.read().split()))[:100]
     insertion_sort(data)
-    print(data)
+    print(data)	
